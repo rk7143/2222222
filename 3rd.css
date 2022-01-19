@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: sandybrown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+li{
+    list-style: none;
+    float: left;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 30px;
+}
+li a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.ddown-content{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding: 10px 0px;
+}
+.ddown:hover .ddown-content{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.ddown-content li{
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+.ddown2-content{
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    padding: 10px 0px;
+}
+.ddown2:hover .ddown2-content{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.ddown2-content li{
+    padding: 10px 0px;
+    border: 1px solid black;
+}
+
+
+.adm1-content{
+    display: none;
+    display: flex;
+    
+}
+.adm1::after adm-content{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+li a:{
+    padding: 10px 0px;
+    border: 1px solid black;
+}
